@@ -1,7 +1,7 @@
 const { Telegraf, Markup } = require('telegraf');
 
-const bot = new Telegraf('7002029898:AAHbnyQfqzVFjP7cRSHR1BqyJvtiQ2f3yo4');
-const ADMIN_CHAT = '-1003108658988';
+const bot = new Telegraf('TYT_TOKEN');
+const ADMIN_CHAT = 'TYT_ID_CHAT_ADMIN';
 
 const userRequests = {};
 const messageCounter = {};
